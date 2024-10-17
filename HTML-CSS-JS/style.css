@@ -1,0 +1,94 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #333333;
+}
+
+.tudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  /* margin-top: 200px; */
+}
+
+.sim {
+  font-size: 60px;
+}
+
+.sorry {
+  font-family: Arial;
+  color: #a6a6a6
+}
+
+.color {
+  color: #ffffff;
+}
+
+.label {
+  color: #fff;
+  font-weight: bold;
+}
+
+.oi {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.hi {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.form {
+  margin-left: 25px;
+}
+
+.nao {
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.talvez {
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #6b6b6b;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.talvez:hover {
+  background-color: #4f4f4f;
+}
+
+.talvez:active {
+  background-color: #2e2e2e;
+}
+
+.nao:focus {
+  outline: none;
+}
+
+.nao:hover {
+  background-color: #4f4f4f;
+  color: #FFF;
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15%;
+  width: 15%;
+  /* opacity: 70%;
+  margin-left: 800px;
+  margin-top: 50px; */
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
